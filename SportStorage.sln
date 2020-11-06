@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportStorage", "SportStorage\SportStorage.csproj", "{D8C1964A-1703-4124-8AC5-6621D9B105DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportStorage.Tests", "SportStorage.Tests\SportStorage.Tests.csproj", "{14B443A8-0700-48F7-ADAD-418416717C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8C1964A-1703-4124-8AC5-6621D9B105DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C1964A-1703-4124-8AC5-6621D9B105DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C1964A-1703-4124-8AC5-6621D9B105DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C1964A-1703-4124-8AC5-6621D9B105DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B443A8-0700-48F7-ADAD-418416717C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B443A8-0700-48F7-ADAD-418416717C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B443A8-0700-48F7-ADAD-418416717C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B443A8-0700-48F7-ADAD-418416717C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

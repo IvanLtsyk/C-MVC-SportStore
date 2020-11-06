@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <DebugType>full</DebugType>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="Bower">
+          <Version>1.3.11</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json">
+            <Version>2.2.0</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.StaticFiles">
+            <Version>2.2.0</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.WebUtilities">
+            <Version>2.2.0</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Primitives">
+            <Version>2.2.0</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink">
+          <Version>2.2.0</Version>
+        </PackageReference>
+        <PackageReference Include="Npgsql">
+            <Version>4.0.4</Version>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFramework">
+            <Version>2.2.0</Version>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL">
+            <Version>2.2.0</Version>
+        </PackageReference>
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+    
+
+</Project>
